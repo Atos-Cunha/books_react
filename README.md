@@ -1,51 +1,37 @@
+"# books_react" 
+
 APÓS DOWNLOAD DO PROJETO
+SERÁ NECESSARIO A INSTAÇÃO DAS DEPENDENCIAS
 
-
-INSERIR O COMANDO 
-npm init 
-NA RAIZ DO PROJETO
-
-ENTAO SERA REALIZADO O PROCESSO DE 
-UTILIZACAO DO COMANDO 
-npm install
-NOS SEGUINTES DIRETORIOS A PARTIR DO DIRETORIO RAIZ
-
-->
-        cd ./books_react
-
-        npm install
-
-        cd ..
+UTILIZAR O COMANDO 
+npm install VIA TERMINAL 
+NOS DIRETORIOS	"books_server" e "books_react"
 
         cd ./books_server
 
         npm install
 
+        cd ..
 
-"SE NECESSARIO VERIFICAR OS ARQUIVOS DE node_modules"
+        cd ./books_react
 
-
-
-
-
+        npm install
 
 
+APÓS A INSTALAÇÃO DAS DEPENDENCIAS
+DEVE SE INICIAR O BACKEND E FRONTEND
+DO PROJETO
+
+ACESSAR O DIRETORIO "books_server" e INICIAR O ARQUIVO "app.js"
+	
+        cd ./books_server
+		
+        node app.js
 
 
+ACESSAR O DIRETORIO "books_react/src" 
+INICIAR ARQUIVO "index.js"
 
-"# books_react" 
-
-"books_server -> app.js"
-
-Abrir o diretorio books_server e pelo terminal iniciar o arquivo index.js 
-com o comando
-
-        -> node app.js
-
-    "books_react -> src/index.js"
-
-Abrir diretorio do books_react 
-acessar diretorio src 
-iniciar arquivo index.js
-
-        -> npm start
+        cd ./books_react/src
+        
+        npm start
