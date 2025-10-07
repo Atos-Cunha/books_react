@@ -1,37 +1,46 @@
-"# books_react" 
+# React Dex
 
-APÓS DOWNLOAD DO PROJETO
-SERÁ NECESSARIO A INSTAÇÃO DAS DEPENDENCIAS
+## 📦 Após clonar ou baixar o projeto
 
-UTILIZAR O COMANDO 
-npm install VIA TERMINAL 
-NOS DIRETORIOS	"books_server" e "books_react"
+Certifique-se de ter o **Node.js** instalado em sua máquina.
 
-        cd ./books_server
+Siga os passos abaixo para configurar e iniciar o ambiente de desenvolvimento.
 
-        npm install
+---
 
-        cd ..
+## 🚀 Passo a passo para configurar o ambiente
 
-        cd ./books_react
+### 1. Iniciar o terminal
 
-        npm install
+Abra um terminal e acesse o diretório raiz do projeto.
+
+### 2. Instalar as dependências
+
+No terminal, execute os seguintes comandos:
+
+```bash
+# Acesse a pasta do frontend e instale os módulos
+cd ./books_react
+npm install
+
+# Volte para o diretório raiz
+cd ..
+
+# Acesse a pasta do servidor (backend) e instale os módulos
+cd ./books_server
+npm install
+```
+### 3. Iniciar o projeto
 
 
-APÓS A INSTALAÇÃO DAS DEPENDENCIAS
-DEVE SE INICIAR O BACKEND E FRONTEND
-DO PROJETO
+# BackEnd
+```bash
+cd ./books_server
+node app.js
+```
+# FrontEnd
+```bash
+cd ./books_react/src
+npm start
+```
 
-ACESSAR O DIRETORIO "books_server" e INICIAR O ARQUIVO "app.js"
-	
-        cd ./books_server
-		
-        node app.js
-
-
-ACESSAR O DIRETORIO "books_react/src" 
-INICIAR ARQUIVO "index.js"
-
-        cd ./books_react/src
-        
-        npm start
