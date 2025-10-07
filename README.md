@@ -1,4 +1,4 @@
-# React Dex
+# Books React
 
 ## 📦 Após clonar ou baixar o projeto
 
